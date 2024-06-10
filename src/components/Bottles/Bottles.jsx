@@ -14,7 +14,7 @@ const Bottles = () => {
         console.log(bottles.length);
         if (bottles.length > 0) {
             const storedCart = getStoredCart();
-            console.log(storedCart);
+            console.log(storedCart, bottles);
         }
     }, [bottles])
     const handleAddToCart = bottle => {
